@@ -92,9 +92,20 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
+.boldText {
+    font-weight: 900;
+    margin-right: 12px;
+    font-size: 15px;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+.descPara {
+  margin-bottom: 2px !important;
+  text-align: left;
 }
 
 .fa-chevron-up {
@@ -219,12 +230,12 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color:  #f47a60;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #117964;
+  color: #316879;
   text-decoration: underline;
 }
 
@@ -10246,8 +10257,9 @@ h3 {
 .masthead {
   padding-top: calc(6rem + 74px) !important;
   padding-bottom: 6rem;
-  background-image: url(../assets/img/portfolio/RkyMtn.jpg);
-  background-position: center;
+  background-image: url(../assets/img/portfolio/NYC_Cover.jpg);
+  opacity: 0.;
+  background-position: bottom;
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;    
