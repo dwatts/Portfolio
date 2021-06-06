@@ -148,7 +148,7 @@ p {
 
 .portFooter {
     width: inherit;
-    background-color: white;
+    background-color: rgb(240, 240, 240);
     height: 50px;
     border-radius: 0px 0px 5px 5px
 }
@@ -157,6 +157,7 @@ h2.portText {
     text-align: center;
     padding-top: 15px;
     font-weight: 600;
+    color: #316879;
 }
 
 abbr[title],
@@ -568,6 +569,10 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.img-fluid:hover {
+  opacity: 0.9;
 }
 
 .img-thumbnail {
