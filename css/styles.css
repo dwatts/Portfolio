@@ -123,7 +123,7 @@ p {
 }
 
 .fa-times {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .fa-bars {
@@ -150,6 +150,10 @@ p {
 .fa-file-alt:hover {
     color: #f47a60;
     cursor: pointer;
+}
+
+.fa-plus {
+  font-size: 30px;
 }
 
 .portFooter {
@@ -10372,7 +10376,7 @@ h3 {
   z-index: 1;
   right: 1.5rem;
   top: 1rem;
-  font-size: 3rem;
+  /* font-size: 3rem; */
   line-height: 3rem;
   color: #f47a60;
   opacity: 1;
