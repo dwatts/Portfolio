@@ -578,11 +578,6 @@ mark,
   height: auto;
 }
 
-.img-fluid-teach {
-  max-width: 100%;
-  height: auto;
-}
-
 .img-fluid:hover {
   opacity: 0.9;
 }
